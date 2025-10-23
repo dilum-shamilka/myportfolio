@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d839429b-8464-486a-8726-0152f4d134ca" name="Changes" comment=" aboutpage add 2" />
+    <list default="true" id="d839429b-8464-486a-8726-0152f4d134ca" name="Changes" comment="add footer section add">
+      <change beforePath="$PROJECT_DIR$/portfolio/projectportfolio/assets/styles/style1about.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/projectportfolio/assets/styles/style1about.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dilum-shamilka"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dilum-shamilka&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dilum-shamilka/myportfolio.git",
-    "accountId": "2b11757d-9e66-40a4-b417-f93fee132a26"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dilum-shamilka/myportfolio.git&quot;,
+    &quot;accountId&quot;: &quot;2b11757d-9e66-40a4-b417-f93fee132a26&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -40,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/WINDOWS/Downloads/myportfolio/portfolio/projectportfolio/assets/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WINDOWS/Downloads/myportfolio/portfolio/projectportfolio/assets/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\WINDOWS\Downloads\myportfolio\portfolio\projectportfolio\assets\images" />
@@ -81,6 +83,7 @@
       <updated>1761224202799</updated>
       <workItem from="1761224204067" duration="2000" />
       <workItem from="1761224310780" duration="2042000" />
+      <workItem from="1761227422005" duration="2164000" />
     </task>
     <task id="LOCAL-00001" summary="add nomalize.css">
       <option name="closed" value="true" />
@@ -130,7 +133,47 @@
       <option name="project" value="LOCAL" />
       <updated>1761226211564</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add skill in about page">
+      <option name="closed" value="true" />
+      <created>1761227578817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761227578817</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add skill in about page">
+      <option name="closed" value="true" />
+      <created>1761227585153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761227585153</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add education section add">
+      <option name="closed" value="true" />
+      <created>1761228944486</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761228944486</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add experince section add">
+      <option name="closed" value="true" />
+      <created>1761229190882</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761229190882</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add footer section add">
+      <option name="closed" value="true" />
+      <created>1761229771692</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761229771692</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +186,10 @@
     <MESSAGE value="start of about page" />
     <MESSAGE value=" aboutpage add" />
     <MESSAGE value=" aboutpage add 2" />
-    <option name="LAST_COMMIT_MESSAGE" value=" aboutpage add 2" />
+    <MESSAGE value="add skill in about page" />
+    <MESSAGE value="add education section add" />
+    <MESSAGE value="add experince section add" />
+    <MESSAGE value="add footer section add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add footer section add" />
   </component>
 </project>
