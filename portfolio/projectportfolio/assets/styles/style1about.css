@@ -30,3 +30,50 @@ section {
     max-width: 1400px;
     margin: 0 auto;
 }
+
+/*navigation bar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    background-color: var(--card-background);
+}
+
+
+nav > div:first-child {
+    line-height: 1.2;
+}
+
+
+nav > div:first-child a:first-child {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+nav > div:first-child a:last-child {
+    font-size: 0.8em;
+    color: var(--primary-color);
+    text-decoration: none;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+
+nav > div:last-child a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-left: 40px;
+    transition: color 0.3s;
+    font-size: 1.1em;
+}
+
+nav > div:last-child a:hover {
+    color: var(--secondary-color);
+}
