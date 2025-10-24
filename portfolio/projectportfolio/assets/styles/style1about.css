@@ -241,3 +241,108 @@ section:nth-child(3) figure > div > div:last-child p:last-child {
     color: var(--text-faded);
     font-size: 0.9em;
 }
+
+#work-experience h1 {
+    /* Set the color to the primary green color */
+    color: var(--primary-color);
+    text-align: center; /* Center the new heading */
+}
+
+
+/*
+ 6. FOOTER SECTION (UPDATED FOR DOUBLE GREEN LINES)
+
+*/
+footer {
+    padding: 50px 8% 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    background-color: var(--background-dark);
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: var(--card-background);
+}
+
+footer article > figure:first-child {
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+
+footer article > figure:first-child::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1400px;
+    height: 1px;
+    background-color: var(--primary-color);
+
+    box-shadow: 0 5px 0 0 var(--primary-color);
+}
+
+/*work experince*/
+footer article > figure:first-child::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1400px;
+    height: 1px;
+    background-color: var(--primary-color);
+    box-shadow: 0 -5px 0 0 var(--primary-color);
+}
+
+
+footer h3 {
+    font-size: 2.5em;
+    color: var(--secondary-color);
+}
+
+
+footer article > figure:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+footer figure:last-child p {
+    font-size: 0.8em;
+    color: var(--text-faded);
+    line-height: 1.4;
+}
+
+footer figure:last-child div:first-child p:first-child {
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 1em;
+}
+
+footer figure:last-child div:nth-child(2) {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+footer figure:last-child div:last-child a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+footer figure:last-child div:last-child a:hover {
+    color: var(--secondary-color);
+}
