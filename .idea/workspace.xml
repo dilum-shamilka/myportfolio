@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d839429b-8464-486a-8726-0152f4d134ca" name="Changes" comment="add footer section add">
-      <change beforePath="$PROJECT_DIR$/portfolio/projectportfolio/assets/styles/style1about.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/projectportfolio/assets/styles/style1about.css" afterDir="false" />
-    </list>
+    <list default="true" id="d839429b-8464-486a-8726-0152f4d134ca" name="Changes" comment="skillcss section" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +82,7 @@
       <workItem from="1761224204067" duration="2000" />
       <workItem from="1761224310780" duration="2042000" />
       <workItem from="1761227422005" duration="2164000" />
+      <workItem from="1761234346905" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="add nomalize.css">
       <option name="closed" value="true" />
@@ -173,7 +172,39 @@
       <option name="project" value="LOCAL" />
       <updated>1761229771692</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="colours add">
+      <option name="closed" value="true" />
+      <created>1761234367567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761234367567</updated>
+    </task>
+    <task id="LOCAL-00013" summary="colours navbaradd">
+      <option name="closed" value="true" />
+      <created>1761234476209</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1761234476209</updated>
+    </task>
+    <task id="LOCAL-00014" summary="about section">
+      <option name="closed" value="true" />
+      <created>1761235948938</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1761235948938</updated>
+    </task>
+    <task id="LOCAL-00015" summary="skillcss section">
+      <option name="closed" value="true" />
+      <created>1761237270606</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761237270606</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +221,10 @@
     <MESSAGE value="add education section add" />
     <MESSAGE value="add experince section add" />
     <MESSAGE value="add footer section add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add footer section add" />
+    <MESSAGE value="colours add" />
+    <MESSAGE value="colours navbaradd" />
+    <MESSAGE value="about section" />
+    <MESSAGE value="skillcss section" />
+    <option name="LAST_COMMIT_MESSAGE" value="skillcss section" />
   </component>
 </project>
