@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d839429b-8464-486a-8726-0152f4d134ca" name="Changes" comment="skillcss section" />
+    <list default="true" id="d839429b-8464-486a-8726-0152f4d134ca" name="Changes" comment="footercss section" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +83,7 @@
       <workItem from="1761224310780" duration="2042000" />
       <workItem from="1761227422005" duration="2164000" />
       <workItem from="1761234346905" duration="544000" />
+      <workItem from="1761286827716" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="add nomalize.css">
       <option name="closed" value="true" />
@@ -204,7 +205,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761237270606</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="educationcss section">
+      <option name="closed" value="true" />
+      <created>1761286937860</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761286937860</updated>
+    </task>
+    <task id="LOCAL-00017" summary="workexperince css section">
+      <option name="closed" value="true" />
+      <created>1761287011556</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1761287011556</updated>
+    </task>
+    <task id="LOCAL-00018" summary="footercss section">
+      <option name="closed" value="true" />
+      <created>1761287188601</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761287188601</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +250,9 @@
     <MESSAGE value="colours navbaradd" />
     <MESSAGE value="about section" />
     <MESSAGE value="skillcss section" />
-    <option name="LAST_COMMIT_MESSAGE" value="skillcss section" />
+    <MESSAGE value="educationcss section" />
+    <MESSAGE value="workexperince css section" />
+    <MESSAGE value="footercss section" />
+    <option name="LAST_COMMIT_MESSAGE" value="footercss section" />
   </component>
 </project>
