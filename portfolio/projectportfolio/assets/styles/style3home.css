@@ -75,16 +75,53 @@ nav>div:last-child a:hover {
 }
 
 /*intro section*/
-;
-height: 250px;
-object-fit: cover;
-/* * MODIFIED FOR SQUARE SHAPE:
- * Removed 'border-radius: 50%'
- * Added a slight corner radius and adjusted border.
- */
-border-radius: 8px;
-border: 3px solid var(--primary-color);
-transition: transform 0.3s;
+main>section:nth-child(1) {
+    /* Targeting the Intro Section */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Added for better layout */
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--card-background);
+}
+
+main>section:nth-child(1) article:first-child {
+    flex: 1;
+    min-width: 300px;
+}
+
+main>section:nth-child(1) article:last-child {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main>section:nth-child(1) h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+main>section:nth-child(1) p {
+    color: var(--text-faded);
+    margin-bottom: 30px;
+}
+
+main>section:nth-child(1) img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /* * MODIFIED FOR SQUARE SHAPE:
+     * Removed 'border-radius: 50%'
+     * Added a slight corner radius and adjusted border.
+     */
+    border-radius: 8px;
+    border: 3px solid var(--primary-color);
+    transition: transform 0.3s;
 }
 
 main>section:nth-child(1) img:hover {
@@ -113,5 +150,169 @@ main>section:nth-child(1) input[type="button"][value="CV"] {
 
 main>section:nth-child(1) input[type="button"]:hover {
     opacity: 0.9;
+}
+
+/*services section*/
+main>section:nth-child(2) article:first-child {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main>section:nth-child(2) article:first-child p {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main>section:nth-child(2) article:first-child h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main>section:nth-child(2) article:first-child div {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--text-faded);
+}
+
+main>section:nth-child(2) article:last-child {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main>section:nth-child(2) figure {
+    background-color: var(--card-background);
+    padding: 30px;
+    border-radius: 8px;
+    width: calc(33.333% - 20px);
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+main>section:nth-child(2) figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 176, 141, 0.3);
+}
+
+main>section:nth-child(2) figure img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--primary-color);
+    margin-bottom: 15px;
+}
+
+main>section:nth-child(2) figure p {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+main>section:nth-child(2) figure a {
+    color: var(--text-faded);
+    display: block;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/*
+home section 3 styles
+ */
+main>section:nth-child(3) article:first-child {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main>section:nth-child(3) article:first-child p:first-child {
+    /* The SERVICES text that is incorrectly in the PROJECT section */
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main>section:nth-child(3) article:first-child h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main>section:nth-child(3) article:first-child div {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--text-faded);
+}
+
+main>section:nth-child(3) article:last-child {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main>section:nth-child(3) figure {
+    width: calc(33.333% - 20px);
+    min-width: 250px;
+    background-color: var(--card-background);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+main>section:nth-child(3) figure:hover {
+    transform: translateY(-5px);
+}
+
+main>section:nth-child(3) figure>div:first-child {
+    padding: 20px;
+}
+
+main>section:nth-child(3) figure>div:first-child p:first-child {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+main>section:nth-child(3) figure>div:first-child p:not(:first-child) {
+    color: var(--text-faded);
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+main>section:nth-child(3) figure a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+main>section:nth-child(3) figure a:hover {
+    color: var(--primary-color);
+}
+
+main>section:nth-child(3) figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+main>section:nth-child(3) figure>div:last-child {
+    padding: 10px 20px;
+    background-color: var(--background-dark);
+    border-top: 1px solid var(--card-background);
+}
+
+main>section:nth-child(3) figure>div:last-child p {
+    font-weight: bold;
 }
 

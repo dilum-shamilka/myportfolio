@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d839429b-8464-486a-8726-0152f4d134ca" name="Changes" comment="footer" />
+    <list default="true" id="d839429b-8464-486a-8726-0152f4d134ca" name="Changes" comment="introcss colouradd">
+      <change beforePath="$PROJECT_DIR$/portfolio/projectportfolio/assets/styles/style3home.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/projectportfolio/assets/styles/style3home.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +87,7 @@
       <workItem from="1761234346905" duration="544000" />
       <workItem from="1761286827716" duration="472000" />
       <workItem from="1761322980372" duration="755000" />
+      <workItem from="1761360209312" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="add nomalize.css">
       <option name="closed" value="true" />
@@ -286,15 +289,37 @@
       <option name="project" value="LOCAL" />
       <updated>1761323414973</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="homecss colouradd">
+      <option name="closed" value="true" />
+      <created>1761360268491</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1761360268491</updated>
+    </task>
+    <task id="LOCAL-00027" summary="navcss colouradd">
+      <option name="closed" value="true" />
+      <created>1761360324214</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1761360324214</updated>
+    </task>
+    <task id="LOCAL-00028" summary="introcss colouradd">
+      <option name="closed" value="true" />
+      <created>1761360402165</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1761360402165</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add nomalize.css" />
-    <MESSAGE value="cssfiles for indexs" />
     <MESSAGE value="add images file" />
     <MESSAGE value="start of about page" />
     <MESSAGE value=" aboutpage add" />
@@ -317,6 +342,9 @@
     <MESSAGE value="projects" />
     <MESSAGE value="assigment" />
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="homecss colouradd" />
+    <MESSAGE value="navcss colouradd" />
+    <MESSAGE value="introcss colouradd" />
+    <option name="LAST_COMMIT_MESSAGE" value="introcss colouradd" />
   </component>
 </project>
