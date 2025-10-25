@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #00B08D;
+    --secondary-color: #F0F6FC;
+    --background-dark: #0D1117;
+    --card-background: #161B22;
+    --text-faded: #8B949E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--secondary-color);
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 50px 8%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
