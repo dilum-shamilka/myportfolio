@@ -73,3 +73,45 @@ nav>div:last-child a {
 nav>div:last-child a:hover {
     color: var(--secondary-color);
 }
+
+/*intro section*/
+;
+height: 250px;
+object-fit: cover;
+/* * MODIFIED FOR SQUARE SHAPE:
+ * Removed 'border-radius: 50%'
+ * Added a slight corner radius and adjusted border.
+ */
+border-radius: 8px;
+border: 3px solid var(--primary-color);
+transition: transform 0.3s;
+}
+
+main>section:nth-child(1) img:hover {
+    transform: scale(1.05);
+}
+
+main>section:nth-child(1) input[type="button"] {
+    background-color: var(--primary-color);
+    color: var(--background-dark);
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 1em;
+}
+
+main>section:nth-child(1) input[type="button"][value="CV"] {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+main>section:nth-child(1) input[type="button"]:hover {
+    opacity: 0.9;
+}
+
